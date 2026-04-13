@@ -19,3 +19,34 @@ The pipeline transforms raw unstructured data into high-quality supervised train
 ---
 
 ## 🧠 Pipeline Overview
+
+Raw Data
+↓
+Text Cleaning
+↓
+Rule-based Extraction
+↓
+Qwen-assisted Completion
+↓
+Quality Filtering
+↓
+Deduplication
+↓
+Structured Training Data
+
+
+---
+
+## 📂 Output Format
+
+Each processed sample is structured as:
+
+```json
+{
+  "problem": "...",
+  "solution": "...",
+  "final_answer": "...",
+  "quality_score": 8,
+  "math_bucket": "algebra",
+  "difficulty": "medium"
+}
