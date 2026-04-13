@@ -20,21 +20,20 @@ The pipeline transforms raw unstructured data into high-quality supervised train
 
 ## 🧠 Pipeline Overview
 
-'''
+```text
 Raw Data
-↓
+   ↓
 Text Cleaning
-↓
+   ↓
 Rule-based Extraction
-↓
+   ↓
 Qwen-assisted Completion
-↓
+   ↓
 Quality Filtering
-↓
+   ↓
 Deduplication
-↓
+   ↓
 Structured Training Data
-'''
 
 ---
 
