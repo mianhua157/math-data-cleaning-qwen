@@ -34,7 +34,7 @@ Quality Filtering
 Deduplication
    ↓
 Structured Training Data
-
+```
 ---
 
 ## 📂 Output Format
